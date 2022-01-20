@@ -8,16 +8,12 @@ h2 {margin-left: 30px;}
 
 .card-text {text-align: justify;}
 
-.titre {font-weight: bold;}
+.titre {font-weight: bold}
 
 p {text-align: justify;}
 
-/**
-@media screen and (max-width :600 px){
-	p {text-align: justify;}
-	.card-text {text-align: justify;}
-	.row {display: flex;
-  flex-wrap: wrap;}
-  iframe {width: 50px;}
-}
-**\
+.centrertitre {display: flex;
+	justify-content:  center;}
+
+.centrervideo {display: flex;
+	justify-content:  center;}
