@@ -1,3 +1,5 @@
+@import 'composants/bannieres.css';
+
 h1 {display: flex;
 	margin-top: 1rem;
 	justify-content:  center;}
