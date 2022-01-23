@@ -1,44 +1,62 @@
 @import 'composants/bannieres.css';
 
 @font-face {
-font-family: '2060.ttf';
-src: url('Polices/2060.ttf');
-src: url('Polices/2060.ttf') format('truetype'),
-font-style: normal;
+	font-family: '2060.ttf';
+	src: url('Polices/2060.ttf');
+	src: url('Polices/2060.ttf') format('truetype'),
+	font-style: normal;
 }
 
 @font-face {
-font-family: 'Jester.ttf';
-src: url('Polices/Jester.ttf');
-src: url('Polices/Jester.ttf') format('truetype'),
-font-style: normal;
+	font-family: 'Jester.ttf';
+	src: url('Polices/Jester.ttf');
+	src: url('Polices/Jester.ttf') format('truetype'),
+	font-style: normal;
 }
 
-body {font-family: 'Jester.ttf';}
+body {
+	font-family: 'Jester.ttf';
+}
 
-h1 {display: flex;
+h1 {
+	display: flex;
 	margin-top: 1rem;
 	justify-content:  center;
-	font-family: '2060.ttf';}
+	font-family: '2060.ttf';
+}
 
-h2 {margin-left: 30px;}
+h2 {
+	margin-left: 30px;
+}
 
-.italique {font-style: italic;}
+.italique {
+	font-style: italic;
+}
 
-.card-text {text-align: justify;}
+.card-text {
+	text-align: justify;
+}
 
-.titre {font-weight: bold}
+.titre {
+	font-weight: bold;
+}
 
-p {text-align: justify;}
+p {
+	text-align: justify;
+}
 
-.centrertitre {display: flex;
-	justify-content:  center;}
+.centrertitre {
+	display: flex;
+	justify-content:  center;
+}
 
-.centrervideo {display: flex;
-	justify-content:  center;}
+.centrervideo {
+	display: flex;
+	justify-content:  center;
+}
 
 .imgzoom:hover{
--ms-transform: scale(1.5);
--webkit-transform: scale(1.5);
-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
 }
