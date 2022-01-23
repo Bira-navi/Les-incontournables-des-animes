@@ -1,8 +1,25 @@
 @import 'composants/bannieres.css';
 
+@font-face {
+font-family: '2060.ttf';
+src: url('Polices/2060.ttf');
+src: url('Polices/2060.ttf') format('truetype'),
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Jester.ttf';
+src: url('Polices/Jester.ttf');
+src: url('Polices/Jester.ttf') format('truetype'),
+font-style: normal;
+}
+
+body {font-family: 'Jester.ttf' ;}
+
 h1 {display: flex;
 	margin-top: 1rem;
-	justify-content:  center;}
+	justify-content:  center;
+	font-family: '2060.ttf';}
 
 h2 {margin-left: 30px;}
 
