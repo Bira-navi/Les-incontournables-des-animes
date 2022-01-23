@@ -14,7 +14,7 @@ src: url('Polices/Jester.ttf') format('truetype'),
 font-style: normal;
 }
 
-body {font-family: 'Jester.ttf' ;}
+body {font-family: 'Jester.ttf';}
 
 h1 {display: flex;
 	margin-top: 1rem;
