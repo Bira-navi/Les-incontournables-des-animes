@@ -68,5 +68,5 @@ p {
 
 .OP {
 	display: flex;
-	align-self: center;
+	align-content: flex-end;
 }
