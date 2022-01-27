@@ -47,12 +47,12 @@ p {
 
 .centrertitre {
 	display: flex;
-	justify-content:  center;
+	justify-content: center;
 }
 
 .centrervideo {
 	display: flex;
-	justify-content:  center;
+	justify-content: center;
 }
 
 .imgzoom:hover {
