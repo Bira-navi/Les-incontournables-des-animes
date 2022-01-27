@@ -55,7 +55,7 @@ p {
 	justify-content:  center;
 }
 
-.imgzoom:hover{
+.imgzoom:hover {
 	-ms-transform: scale(1.5);
 	-webkit-transform: scale(1.5);
 	transform: scale(1.5);
@@ -66,7 +66,7 @@ p {
 	justify-content:  center;
 }
 
-.formulaire {
+.OP {
 	display: flex;
-align-items: baseline;;
+	align-self: center;
 }
